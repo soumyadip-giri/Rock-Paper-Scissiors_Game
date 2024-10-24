@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+h1{
+    background-color: rgb(0, 130, 132);
+    color: rgb(255, 251, 244);
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choice{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rock:hover{
+    background-color: rgb(117, 0, 86);
+    cursor: pointer;
+}
+
+#paper:hover{
+    background-color: rgb(68, 37, 106);
+    cursor: pointer;
+}
+
+#scissors:hover{
+    background-color: rgb(7, 14, 111);
+    cursor: pointer;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    margin-top: 5rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+    gap: 5rem;
+}
+
+#user-score, #comp-score{
+    font-size: 4rem;
+}
+
+.message-container{
+    margin-top: 5rem;
+
+}
+
+#msg{
+    background-color: rgb(0, 136, 138);
+    color: white;
+    font-size: 1.8rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.creator{
+    margin-top: 5rem;
+    color: rgb(22, 0, 57);
+}
+
+h4{
+    font-weight: 550;
+    margin-bottom: 0.5rem;
+}
